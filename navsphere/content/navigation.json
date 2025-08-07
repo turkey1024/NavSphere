@@ -865,6 +865,14 @@
           "description": "番茄工作法",
           "icon": "https://turkey1024.github.io/favicon.ico",
           "enabled": true
+        },
+        {
+          "id": "1754549625914",
+          "title": "设备状态检测器",
+          "href": "https://turkey1024.github.io/hhh",
+          "description": "没用的小玩意",
+          "icon": "https://turkey1024.github.io/favicon.ico",
+          "enabled": true
         }
       ],
       "subCategories": []
