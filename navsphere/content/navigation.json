@@ -842,6 +842,15 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1754549330562",
+      "title": "我的自建网站QwQ",
+      "icon": "Home",
+      "description": "自建网站",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
     }
   ]
 }
