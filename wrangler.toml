@@ -10,6 +10,6 @@ GITHUB_ID = "Ov23liZLx5CkZeogNfRE"
 GITHUB_OWNER = "turkey1024"
 GITHUB_REPO = "NavSphere"
 GITHUB_BRANCH = "main"
-NEXTAUTH_URL = "https://turkey.qzz.io/api/auth"
-NEXT_PUBLIC_API_URL="https://turkey.qzz.io"
+NEXTAUTH_URL = "https://turkey1.pages.dev/api/auth"
+NEXT_PUBLIC_API_URL="https://turkey1.pages.dev"
 
