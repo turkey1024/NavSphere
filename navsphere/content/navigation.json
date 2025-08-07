@@ -32,17 +32,17 @@
           "enabled": true
         },
         {
-          "id": "1754549701302",
-          "title": "LastTrainHome phone",
-          "href": "https://turkey1024.github.io/LastTrainHome",
+          "id": "1754549759196",
+          "title": "LastTrainHome pc",
+          "href": "https://turkey1024.githuh.com/LastTrainHome/pc.html",
           "description": "emscripten移植",
           "icon": "/assets/img_1754565733185.png",
           "enabled": true
         },
         {
-          "id": "1754549759196",
-          "title": "LastTrainHome pc",
-          "href": "https://turkey1024.githuh.com/LastTrainHome/pc.html",
+          "id": "1754549701302",
+          "title": "LastTrainHome phone",
+          "href": "https://turkey1024.github.io/LastTrainHome",
           "description": "emscripten移植",
           "icon": "/assets/img_1754565733185.png",
           "enabled": true
