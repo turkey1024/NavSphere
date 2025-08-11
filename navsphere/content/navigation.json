@@ -8,6 +8,14 @@
       "enabled": true,
       "items": [
         {
+          "id": "1754888030782",
+          "title": "互联网垃圾站",
+          "href": "https://ljx.is-a.dev",
+          "description": "如题",
+          "icon": "/assets/favicon_1754888059932.jpg",
+          "enabled": true
+        },
+        {
           "id": "1754549460873",
           "title": "1379下载站",
           "href": "https://turkey1024.github.io",
@@ -53,14 +61,6 @@
           "href": "https://turkey1024.github.io/a",
           "description": "???",
           "icon": "/assets/img_1754636344764.png",
-          "enabled": true
-        },
-        {
-          "id": "1754888030782",
-          "title": "互联网垃圾站",
-          "href": "https://ljx.is-a.dev",
-          "description": "如题",
-          "icon": "/assets/favicon_1754888059932.jpg",
           "enabled": true
         }
       ],
