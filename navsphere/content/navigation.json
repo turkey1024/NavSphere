@@ -166,6 +166,14 @@
           "description": "Beautiful & consistent icon toolkit made by the community.",
           "icon": "/assets/favicon_1754229702059.ico",
           "enabled": true
+        },
+        {
+          "id": "1756981532994",
+          "title": "免费二级域",
+          "href": "https://freedns.afraid.org",
+          "description": "Free DNS hosting, lets you fully manage your own domain.  Dynamic DNS and Static DNS services available.  You may also create hosts off other domains that we host upon the domain owners consent, we have several domains to choose from!",
+          "icon": "https://freedns.afraid.org/favicon.ico",
+          "enabled": true
         }
       ],
       "subCategories": [],
