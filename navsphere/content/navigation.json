@@ -62,6 +62,14 @@
           "description": "???",
           "icon": "/assets/img_1754636344764.png",
           "enabled": true
+        },
+        {
+          "id": "1756981300874",
+          "title": "csjj.iz.rs",
+          "href": "http://csjj.iz.rs",
+          "description": "",
+          "icon": "http://csjj.iz.rs/favicon.ico",
+          "enabled": true
         }
       ],
       "subCategories": []
