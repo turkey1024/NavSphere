@@ -16,6 +16,14 @@
           "enabled": true
         },
         {
+          "id": "1759383952926",
+          "title": "垃圾推送",
+          "href": "https://ljx.is-a.dev/blog",
+          "description": "如题",
+          "icon": "/assets/favicon_1759383974915.jpg",
+          "enabled": true
+        },
+        {
           "id": "1754549460873",
           "title": "1379下载站",
           "href": "https://turkey1024.github.io",
@@ -69,14 +77,6 @@
           "href": "http://csjj.iz.rs",
           "description": "",
           "icon": "http://csjj.iz.rs/favicon.ico",
-          "enabled": true
-        },
-        {
-          "id": "1759383952926",
-          "title": "垃圾推送",
-          "href": "https://ljx.is-a.dev/blog",
-          "description": "如题",
-          "icon": "/assets/favicon_1759383974915.jpg",
           "enabled": true
         }
       ],
