@@ -70,6 +70,14 @@
           "description": "",
           "icon": "http://csjj.iz.rs/favicon.ico",
           "enabled": true
+        },
+        {
+          "id": "1759383952926",
+          "title": "垃圾推送",
+          "href": "https://ljx.is-a.dev/blog",
+          "description": "如题",
+          "icon": "/assets/favicon_1759383974915.jpg",
+          "enabled": true
         }
       ],
       "subCategories": []
