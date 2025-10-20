@@ -70,14 +70,6 @@
           "description": "???",
           "icon": "/assets/img_1760970209769.png",
           "enabled": true
-        },
-        {
-          "id": "1756981300874",
-          "title": "意义不明",
-          "href": "http://csjj.iz.rs",
-          "description": "",
-          "icon": "http://csjj.iz.rs/favicon.ico",
-          "enabled": true
         }
       ],
       "subCategories": []
