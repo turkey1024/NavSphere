@@ -416,6 +416,14 @@
           "description": "your own personal id for your website, in other words: free subdomain service",
           "icon": "/assets/favicon_1761051991791.png",
           "enabled": true
+        },
+        {
+          "id": "1761052067944",
+          "title": "DigitalPlat",
+          "href": "https://domain.digitalplat.org/",
+          "description": "",
+          "icon": "https://domain.digitalplat.org/wp-content/uploads/2023/05/cropped-IMG_20230511_165610-32x32.jpg",
+          "enabled": true
         }
       ],
       "subCategories": []
