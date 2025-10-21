@@ -400,6 +400,14 @@
           "description": "A service to allow developers to get free `.is-a.dev` subdomains",
           "icon": "/assets/favicon_1761051712784.ico",
           "enabled": true
+        },
+        {
+          "id": "1761051741610",
+          "title": "is-not.cool",
+          "href": "https://is-not.cool",
+          "description": "Get your own subdomain service provided by us!",
+          "icon": "/assets/favicon_1761051756005.ico",
+          "enabled": true
         }
       ],
       "subCategories": []
