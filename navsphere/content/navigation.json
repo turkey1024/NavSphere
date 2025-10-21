@@ -424,6 +424,14 @@
           "description": "your own personal id for your website, in other words: free subdomain service",
           "icon": "/assets/favicon_1761051991791.png",
           "enabled": true
+        },
+        {
+          "id": "1761052390265",
+          "title": "Open-Domains – Free Subdomains for Everyone",
+          "href": "https://open-domains.net",
+          "description": "Open-Domains offers free subdomains with simple GitHub-based setup. Claim yours today.",
+          "icon": "https://open-domains.net/favicon.ico",
+          "enabled": true
         }
       ],
       "subCategories": []
