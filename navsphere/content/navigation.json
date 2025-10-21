@@ -942,6 +942,15 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1761051600304",
+      "title": "二级域注册",
+      "icon": "Globe",
+      "description": "",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
     }
   ]
 }
