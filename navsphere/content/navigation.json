@@ -410,6 +410,14 @@
           "enabled": true
         },
         {
+          "id": "1761395228511",
+          "title": "FC2",
+          "href": "https://web.fc2.com",
+          "description": "FC2ホームページは無料で簡単にホームページを作成できるホームページスペースサービスです。広告掲載なし!商用利用も可能!独自ドメインの設定もOK!WordPressも使えます!",
+          "icon": "/assets/img_1761051678333.png",
+          "enabled": true
+        },
+        {
           "id": "1761051700475",
           "title": "is-a.dev",
           "href": "https://is-a.dev",
@@ -446,14 +454,6 @@
           "title": " FreeDNS",
           "href": "https://freedns.afraid.org",
           "description": "Free DNS hosting, lets you fully manage your own domain.  Dynamic DNS and Static DNS services available.  You may also create hosts off other domains that we host upon the domain owners consent, we have several domains to choose from!",
-          "icon": "/assets/img_1761051678333.png",
-          "enabled": true
-        },
-        {
-          "id": "1761395228511",
-          "title": "FC2",
-          "href": "https://web.fc2.com",
-          "description": "FC2ホームページは無料で簡単にホームページを作成できるホームページスペースサービスです。広告掲載なし!商用利用も可能!独自ドメインの設定もOK!WordPressも使えます!",
           "icon": "/assets/img_1761051678333.png",
           "enabled": true
         }
