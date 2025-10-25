@@ -1,6 +1,15 @@
 {
   "navigationItems": [
     {
+      "id": "1761397423612",
+      "title": "置顶",
+      "icon": "Zap",
+      "description": "",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
+    },
+    {
       "id": "1754549330562",
       "title": "自建网站",
       "icon": "Home",
@@ -1032,15 +1041,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "1761397423612",
-      "title": "置顶",
-      "icon": "Zap",
-      "description": "",
-      "enabled": true,
-      "items": [],
-      "subCategories": []
     }
   ]
 }
