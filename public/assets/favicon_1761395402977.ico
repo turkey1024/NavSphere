@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="最佳五只鱼的网页导航" />
+    <meta property="og:description" content="包括已公开项目和私密项目
+————分割线————
+更新纪念，问卷，成绩许愿" />
+    <meta
+      property="og:image"
+      content="//public/thumbnails/68e1ee7cc8381eeae9250e03/thumbnail.png"
+    />
+    <title>最佳五只鱼的网页导航</title>
+    <style>
+      /* 基础样式 */
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        background-color: #f8f9fa;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      /* iframe样式 */
+      iframe {
+        width: 100%;
+        height: 100%;
+        border: none;
+        display: block;
+      }
+
+      /* 密码输入容器 */
+      .password-container {
+        width: 100%;
+        max-width: 500px;
+        text-align: center;
+        padding: 40px 20px;
+      }
+
+      /* 标题 */
+      .project-title {
+        font-size: 36px;
+        font-weight: 600;
+        color: #303133;
+        margin-bottom: 16px;
+      }
+
+      /* 提示文字 */
+      .password-hint {
+        font-size: 16px;
+        color: #606266;
+        margin-bottom: 40px;
+      }
+
+      /* 密码输入区域 */
+      .password-input-section {
+        margin-top: 30px;
+      }
+
+      /* 密码输入框组 */
+      .digit-group {
+        display: flex;
+        justify-content: center;
+        gap: 12px;
+        margin-bottom: 30px;
+      }
+
+      /* 单个密码输入框 */
+      .digit-input {
+        width: 50px;
+        height: 60px;
+        border: 1px solid #dcdfe6;
+        border-radius: 8px;
+        font-size: 24px;
+        text-align: center;
+        background-color: white;
+        transition: all 0.3s;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.05);
+      }
+
+      /* 选中输入框效果 */
+      .digit-input:focus {
+        border-color: #409eff;
+        outline: none;
+        box-shadow: 0 0 0 2px rgba(64, 158, 255, 0.2);
+      }
+
+      /* 错误提示 */
+      .error-message {
+        color: #f56c6c;
+        font-size: 14px;
+        margin-top: 16px;
+        display: none;
+      }
+
+      /* 显示错误信息 */
+      .error-message.show {
+        display: block;
+      }
+
+      /* 按钮样式 */
+      .submit-button {
+        padding: 12px 24px;
+        background-color: #409eff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .submit-button:hover {
+        background-color: #337ecc;
+      }
+
+      .submit-button:disabled {
+        background-color: #a0cfff;
+        cursor: not-allowed;
+      }
+
+      /* 辅助提示文本 */
+      .help-text {
+        font-size: 12px;
+        color: #909399;
+        margin-top: 16px;
+      }
+      .download-button {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #409eff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 15px;
+        font-size: 14px;
+        cursor: pointer;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        z-index: 9999;
+        transition: all 0.3s;
+      }
+
+      .download-button:hover {
+        background-color: #66b1ff;
+      }
+
+      .download-button i {
+        margin-right: 5px;
+      }
+
+      /* 分享按钮样式 */
+      .share-button {
+        position: fixed;
+        bottom: 20px;
+        right: 90px;
+        background-color: #07c160;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        padding: 10px 15px;
+        font-size: 14px;
+        cursor: pointer;
+        box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+        display: flex;
+        align-items: center;
+        z-index: 9999;
+        transition: all 0.3s;
+      }
+
+      .share-button:hover {
+        background-color: #06ad56;
+      }
+
+      .share-button i {
+        margin-right: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <iframe
+      id="projectFrame"
+      src="//www.html2web.com/view/68e1ee7cc8381eeae9250e03"
+      allow="microphone; camera"
+      frameborder="0"
+      width="100%"
+      height="100%"
+    ></iframe>
+
+    <script>
+      // 判断是否是微信环境
+      function isWeixinBrowser() {
+        const ua = navigator.userAgent.toLowerCase();
+        return ua.indexOf('micromessenger') !== -1;
+      }
+      
+      // 判断是否是二级域名
+      function isSubdomain() {
+        const hostname = window.location.hostname;
+        const parts = hostname.split('.');
+        return parts.length > 2 && parts[0] !== 'www';
+      }
+      
+      // 如果是微信环境且是二级域名，则重定向
+      if (isWeixinBrowser() && isSubdomain()) {
+        const hostname = window.location.hostname;
+        const subdomain = hostname.split('.')[0];
+        const fulldomain = "www.html2web.com";
+        const mainDomain = hostname.split('.').slice(1).join('.');
+        const protocol = window.location.protocol;
+        // 构建新的URL
+        const newUrl = `${protocol}//${fulldomain}/p/${subdomain}`;
+        
+        // 重定向
+        window.location.href = newUrl;
+      } else {
+        document.addEventListener("DOMContentLoaded", function () {
+          // 获取微信分享配置
+          const protocol = window.location.protocol;
+          const projectId = "68e1ee7cc8381eeae9250e03";
+          const projectName = "最佳五只鱼的网页导航";
+          const projectDesc = "包括已公开项目和私密项目
+————分割线————
+更新纪念，问卷，成绩许愿";
+          const projectImage = protocol + "//www.html2web.com/public/thumbnails/68e1ee7cc8381eeae9250e03/thumbnail.png";
+          // const projectImage = protocol + "//www.html2web.com/logo.png";
+          const currentUrl = window.location.href;
+
+          // 调用微信分享API
+          if (typeof wx !== "undefined") {
+            // 获取微信分享配置
+            fetch(protocol + "//www.html2web.com/api/wx/share-config", {
+              method: "POST",
+              headers: {
+                "Content-Type": "application/json",
+              },
+              body: JSON.stringify({
+                url: currentUrl,
+              }),
+            })
+              .then((response) => response.json())
+              .then((data) => {
+                if (data.success) {
+                  // 配置微信JS-SDK
+                  wx.config({
+                    debug: false,
+                    appId: data.data.appId,
+                    timestamp: data.data.timestamp,
+                    nonceStr: data.data.nonceStr,
+                    signature: data.data.signature,
+                    jsApiList: [
+                      "updateAppMessageShareData",
+                      "updateTimelineShareData",
+                    ],
+                  });
+
+                  // 配置分享给朋友
+                  wx.ready(function () {
+                    wx.updateAppMessageShareData({
+                      title: projectName,
+                      desc: projectDesc,
+                      link: currentUrl,
+                      imgUrl: projectImage,
+                      success: function () {
+                        console.log("分享给朋友设置成功");
+                      },
+                    });
+
+                    // 配置分享到朋友圈
+                    wx.updateTimelineShareData({
+                      title: projectName,
+                      link: currentUrl,
+                      imgUrl: projectImage,
+                      success: function () {
+                        console.log("分享到朋友圈设置成功");
+                      },
+                    });
+                  });
+                } else {
+                  console.log("获取分享配置失败: " + data.message);
+                }
+              })
+              .catch((error) => {
+                console.error("获取微信分享配置失败:", error);
+                console.log("获取分享配置失败，请稍后重试");
+              });
+          } else {
+            console.log("请在微信中打开此页面");
+          }
+        });
+      }
+    </script>
+
+    <!-- 引入微信JS-SDK -->
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+    
+  </body>
+</html>
