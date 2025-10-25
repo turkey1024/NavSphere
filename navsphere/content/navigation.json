@@ -24,6 +24,14 @@
           "enabled": true
         },
         {
+          "id": "1761368787014",
+          "title": "Turkey mail",
+          "href": "https://turkeymail.dpdns.org",
+          "description": "Free for mail",
+          "icon": "/assets/img_1761368836795.png",
+          "enabled": true
+        },
+        {
           "id": "1754549460873",
           "title": "1379下载站",
           "href": "https://ljx.is-a.dev/1379",
@@ -69,14 +77,6 @@
           "href": "https://turkey1024.github.io/a",
           "description": "???",
           "icon": "/assets/img_1761051170122.png",
-          "enabled": true
-        },
-        {
-          "id": "1761368787014",
-          "title": "Turkey mail",
-          "href": "https://turkeymail.dpdns.org",
-          "description": "Free for mail",
-          "icon": "/assets/img_1761368836795.png",
           "enabled": true
         }
       ],
