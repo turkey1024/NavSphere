@@ -252,10 +252,10 @@ export function NavigationContent({ navigationData, siteData }: NavigationConten
         .colorful-item::before {
           content: '';
           position: absolute;
-          top: -1px;
-          left: -1px;
-          right: -1px;
-          bottom: -1px;
+          top: -2px;
+          left: -2px;
+          right: -2px;
+          bottom: -2px;
           background: linear-gradient(
             45deg,
             #ff0000,
@@ -270,7 +270,7 @@ export function NavigationContent({ navigationData, siteData }: NavigationConten
           );
           background-size: 400% 400%;
           animation: rainbow 3s ease-in-out infinite;
-          border-radius: 9px;
+          border-radius: 10px;
           z-index: 0;
           opacity: 1;
         }
