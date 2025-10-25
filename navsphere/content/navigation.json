@@ -78,6 +78,14 @@
           "description": "???",
           "icon": "/assets/img_1761051170122.png",
           "enabled": true
+        },
+        {
+          "id": "1761368863959",
+          "title": "联系方式",
+          "href": "https://turkeyabout.dpdns.org",
+          "description": "",
+          "icon": "/assets/img_1761368914419.png",
+          "enabled": true
         }
       ],
       "subCategories": []
