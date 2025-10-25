@@ -1032,6 +1032,15 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1761397423612",
+      "title": "置顶",
+      "icon": "Zap",
+      "description": "",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
     }
   ]
 }
