@@ -6,7 +6,16 @@
       "icon": "Zap",
       "description": "",
       "enabled": true,
-      "items": [],
+      "items": [
+        {
+          "id": "1761397472473",
+          "title": "最佳五只鱼的网页导航",
+          "href": "https://hrjb5fli.html2web.com",
+          "description": "包括已公开项目和私密项目\n————分割线————\n更新即将斩首示众的网页导航",
+          "icon": "/assets/img_1761051678333.png",
+          "enabled": true
+        }
+      ],
       "subCategories": []
     },
     {
