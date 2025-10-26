@@ -165,6 +165,14 @@
           "description": "A professional portfolio website showcasing 9727",
           "icon": "/assets/img_1761051678333.png",
           "enabled": true
+        },
+        {
+          "id": "1761479503236",
+          "title": "666tes",
+          "href": "https://666tes.web.fc2.com",
+          "description": "666tes website",
+          "icon": "/assets/img_1761051678333.png",
+          "enabled": true
         }
       ],
       "subCategories": []
