@@ -22,6 +22,7 @@
           "href": "https://9727folio-ppmafqbc.manus.space/",
           "description": "A professional portfolio website showcasing 9727",
           "icon": "/assets/img_1761051678333.png",
+          "special": "colorful",
           "enabled": true
         },
         {
@@ -30,6 +31,7 @@
           "href": "https://666tes.web.fc2.com",
           "description": "666tes website",
           "icon": "/assets/img_1761051678333.png",
+          "special": "colorful",
           "enabled": true
         }
       ],
