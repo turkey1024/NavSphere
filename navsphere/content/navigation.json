@@ -143,14 +143,6 @@
           "enabled": true
         },
         {
-          "id": "1754568151250",
-          "title": "开往 | 友链接力",
-          "href": "https://www.travellings.cn/go.html",
-          "description": "gogogo",
-          "icon": "/assets/img_1761051298464.png",
-          "enabled": true
-        },
-        {
           "id": "1761395355016",
           "title": "最佳五只鱼的网页导航",
           "href": "https://hrjb5fli.html2web.com",
@@ -172,6 +164,14 @@
           "href": "https://666tes.web.fc2.com",
           "description": "666tes website",
           "icon": "/assets/img_1761051678333.png",
+          "enabled": true
+        },
+        {
+          "id": "1754568151250",
+          "title": "开往 | 友链接力",
+          "href": "https://www.travellings.cn/go.html",
+          "description": "gogogo",
+          "icon": "/assets/img_1761051298464.png",
           "enabled": true
         }
       ],
