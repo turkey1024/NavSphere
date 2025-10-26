@@ -24,6 +24,14 @@
           "icon": "/assets/img_1761051678333.png",
           "special": "colorful",
           "enabled": true
+        },
+        {
+          "id": "1761479062500",
+          "title": "666tes",
+          "href": "https://666tes.web.fc2.com",
+          "description": "666tes website",
+          "icon": "https://666tes.web.fc2.com/favicon.ico",
+          "enabled": true
         }
       ],
       "subCategories": []
