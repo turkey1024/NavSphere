@@ -1101,6 +1101,15 @@
           ]
         }
       ]
+    },
+    {
+      "id": "1761736722903",
+      "title": "媒体资讯",
+      "icon": "Coffee",
+      "description": "",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
     }
   ]
 }
