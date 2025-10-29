@@ -472,6 +472,15 @@
       "enabled": true
     },
     {
+      "id": "1761736722903",
+      "title": "媒体资讯",
+      "icon": "Coffee",
+      "description": "",
+      "enabled": true,
+      "items": [],
+      "subCategories": []
+    },
+    {
       "id": "1761051600304",
       "title": "域注册",
       "icon": "Globe",
@@ -1101,15 +1110,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "1761736722903",
-      "title": "媒体资讯",
-      "icon": "Coffee",
-      "description": "",
-      "enabled": true,
-      "items": [],
-      "subCategories": []
     }
   ]
 }
