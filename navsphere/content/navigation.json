@@ -477,7 +477,16 @@
       "icon": "Coffee",
       "description": "",
       "enabled": true,
-      "items": [],
+      "items": [
+        {
+          "id": "1761736758912",
+          "title": "Reddit",
+          "href": "https://www.reddit.com/",
+          "description": "",
+          "icon": "/assets/img_1761736825841.png",
+          "enabled": true
+        }
+      ],
       "subCategories": []
     },
     {
